@@ -6,13 +6,17 @@ In Java, there is no built-in method to compute the logarithm of a number with a
 Instead, one typically uses: `double log = Math.log(a) / Math.log(b)`, which can be verbose and repetitive when used frequently.
 
 This utility provides convenient methods to perform such calculations more cleanly and efficiently.
-That is why I made this extension.
+That is why I made this extension. 
 
 
 It enables logarithmic computations involving:
 - Arbitrary bases
 - Powered values and bases
 - Quotient-based arguments and bases
+
+---
+## ⚠️
+ The name of the class to use is `Logarithm` so it is `Logarithm.logInBase(value, base)` etc.
 
 ---
 ## 📦 Package Overview
